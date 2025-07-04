@@ -1,16 +1,16 @@
 public enum Setting {
-	OFF("---"),
-	LOWHEAT("--+"),
-	MEDIUMHEAT("-++"),
-	HIGHHEAT("+++");
+    OFF("---"),
+    LOWHEAT("--+"),
+    MEDIUMHEAT("-++"),
+    HIGHHEAT("+++");
 
-	private final String setting;
+    private final String setting;
 
-	Setting(String setting) {
-		this.setting = setting;
-	}
+    Setting(String setting) {
+        this.setting = setting;
+    }
 
-	public String toString() {
-		return '[' + setting + ']';
-	}
+    public String toString() {
+        return '[' + setting + ']';
+    }
 }
